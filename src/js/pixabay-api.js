@@ -1,4 +1,5 @@
 import axios from 'axios';
+import 'izitoast/dist/css/iziToast.min.css';
 
 export default async function httpRequest(key, text, pageN, perPage) {
   const searchParams = new URLSearchParams({
